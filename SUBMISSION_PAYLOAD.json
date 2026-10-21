@@ -9,7 +9,7 @@
   "payout_wallet_evm": "0x5f15e51dff8dc59116d8f399c136004f6cecbbbe",
   "submission_fields": {
     "project_name": "Nexus ZK State Prover - Merkle State Transition Engine",
-    "repository_url": "https://github.com/wiliancolombo/zk-merkle-state-transition-prover",
+    "repository_url": "https://github.com/wiliancolomboo-tech/dorahacks-zk-state-prover",
     "technical_dossier_path": "deliverables/dorahacks_zk_state_prover/README.md",
     "contracts": {
       "state_manager": "contracts/ZKStateTransitionManager.sol"
