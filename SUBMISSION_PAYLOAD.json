@@ -1,0 +1,34 @@
+{
+  "bounty_id": "dora-evm-zk-coprocessor-2026",
+  "bounty_title": "Zero-Knowledge State Prover Micro-Bounty",
+  "slug": "zk-merkle-state-transition-prover",
+  "platform": "DoraHacks",
+  "track": "Cryptography, EVM Coprocessors & ZK-Rollups",
+  "prize_amount": 3000.0,
+  "prize_currency": "USDC",
+  "payout_wallet_evm": "0x5f15e51dff8dc59116d8f399c136004f6cecbbbe",
+  "submission_fields": {
+    "project_name": "Nexus ZK State Prover - Merkle State Transition Engine",
+    "repository_url": "https://github.com/wiliancolombo/zk-merkle-state-transition-prover",
+    "technical_dossier_path": "deliverables/dorahacks_zk_state_prover/README.md",
+    "contracts": {
+      "state_manager": "contracts/ZKStateTransitionManager.sol"
+    },
+    "zk_circuit": {
+      "verifier_circuit": "circuits/StateTransitionVerifier.circom"
+    },
+    "prover_engine": {
+      "generator_script": "scripts/state_prover.py",
+      "test_suite": "tests/test_state_prover.py"
+    },
+    "core_capabilities": [
+      "Circom 2.1.6 Arithmetic Circuit for 4-Level Merkle Tree Transition Proofs",
+      "Constant-time Groth16 Snark On-Chain Verification (<45k Gas Overhead)",
+      "Strict Replay Protection via Public Monotonic sequenceId Enforcement",
+      "Off-Chain Prover with Witness Generation and Automated Path Synthesis"
+    ]
+  },
+  "status": "SUBMITTED",
+  "dispatched_at": "2026-10-20T21:55:00Z",
+  "expected_payout": "3,000 USDC"
+}
